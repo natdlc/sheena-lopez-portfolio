@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Inconsolata:wght@200;300;400;500;600;700;800;900&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+/* 
+
+fonts
+    headers:
+        font-family: 'Inconsolata',
+        monospace;
+
+    subheaders / content
+        font-family: 'Montserrat',
+        sans-serif;
+
+    buttons / extras:
+        font-family: 'Fira Sans Condensed',
+        sans-serif;
+*/
+
+html {
+    background-color: var(--cambridgeBlue);
+    color: var(--spaceCadet);
+    scroll-behavior: smooth;
+}
+
+:root {
+    --aliceBlue: #E8F1F2;
+    --cambridgeBlue: #90BAAD;
+    --spaceCadet: #22223B;
+    --sapphireBlue: #006494;
+    --barnRed: #6F1A07;
+
+    --blackOne: rgb(0, 0, 0);
+    --blackTwo: rgb(12, 12, 12);
+    --blackThree: rgb(22, 22, 22);;
+
+    --whiteOne: #fff;
+    --whiteTwo: rgb(239, 239, 239);
+    --whiteThree: rgb(226, 226, 226);
+}
+
+*,
+*::before,
+*::after {
+    font-family: 'Montserrat', sans-serif;
+    box-sizing: border-box;
+}
+
+h1 {
+    font-family: 'Inconsolata',
+    monospace;
+    font-weight: 900;
+    font-size: 1.8rem;
+    letter-spacing: 0.15rem;
+    text-transform: uppercase;
+
+}
+
+h2, h3 {
+    font-family: 'Montserrat',
+    sans-serif;
+    font-weight: 700;
+    letter-spacing: 0.1rem;
+    font-size: 1rem;
+    color: var(--barnRed);
+}
+
+h3 {
+    font-size: 0.9rem;
+}
+
+a, p, li {
+    font-family: 'Montserrat',
+    sans-serif;
+    font-weight: 600;
+    font-size: 0.8rem;
+    letter-spacing: 0.06rem;
+    text-decoration: none;
+    line-height: 1.7;
+    color: var(--sapphireBlue);
+}
+
+a {
+    font-size: 1rem;
+    font-weight: 600;
+    letter-spacing: 0.15rem;
+    color: var(--barnRed);
+}
+
+li {
+    position: relative;
+}
+
+button {
+    font-size: 1.3rem;
+    letter-spacing: 0.1rem;
+    font-weight: 900;
+}
+
+.boxed {
+    width: 250px;
+    padding: 0.5rem 0;
+    text-transform: uppercase;
+}

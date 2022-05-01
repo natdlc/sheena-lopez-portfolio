@@ -1,4 +1,5 @@
 #about {
+    margin-top: 3rem;
     padding-top: 3rem;
     text-align: center;
     display: flex;
@@ -12,6 +13,12 @@
     gap: 1rem;
 }
 
+.about-photo-title {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
 .about-title {
     display: flex;
     justify-content: center;
@@ -20,6 +27,7 @@
 .about-title-text {
     border: 1px solid var(--barnRed);
     border-radius: 5px;
+    padding: 1rem 0;
 }
 
 .about-description {
@@ -33,6 +41,80 @@
     width: 30ch;
 }
 
-.about-photo {
-    border-radius: 50%;
+@media (min-width: 576px) {
+    .about-header-title {
+        font-size: 3rem !important;
+    }
+
+    .about-photo-container img {
+        width: 250px;
+    }
+
+    .about-description-text {
+        font-size: 0.9rem;
+        width: 40ch;
+        text-align: center;
+    }
+}
+
+@media (min-width: 768px) {
+    #about {
+        margin-top: 5rem;
+    }
+    .about-title-text {
+        font-size: 1.3rem;
+        width: 300px;
+    }
+
+    .about-description-text {
+        font-size: 1.1rem;
+    }
+}
+
+@media (min-width: 1200px) {
+    #about {
+        margin-top: 3rem;
+    }
+    .about-section {
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .about-header-title {
+        font-size: 4rem !important;
+    }
+
+    .about-section:nth-child(even) .about-photo-title {
+        order: 1;
+    }
+
+    .about-title-text {
+        font-weight: 900;
+    }
+}
+
+@media (min-width: 1400px) {
+    #about {
+        margin-top: 10rem;
+    }
+    .about-header-title {
+        font-size: 6rem !important;
+        padding-bottom: 3rem;
+    }
+    .about-section {
+        gap: 4rem;
+    }
+    
+    .about-photo-container img {
+        width: 300px;
+    }
+
+    .about-title-text {
+        font-size: 1.5rem;
+    }
+
+    .about-description-text {
+        font-size: 1.4rem;
+    }
 }

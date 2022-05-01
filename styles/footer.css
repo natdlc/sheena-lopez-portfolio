@@ -5,7 +5,7 @@
     flex-direction: column;
     text-align: center;
     gap: 2rem;
-    padding: 2rem 0;
+    padding: 2rem 0 0;
 }
 
 #footer h2, #footer h1, #footer p, #footer a {
@@ -46,4 +46,27 @@
 
 .footer-menu-items a {
     text-transform: capitalize;
+}
+
+.footer-end {
+    background-color: var(--spaceCadet);
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.footer-end div p {
+    font-size: 0.55rem;
+    color: var(--sapphireBlue) !important;
+    letter-spacing: 0.2rem;
+}
+
+#footer-creds-nat {
+    font-size: 0.55rem;
+    text-transform: uppercase !important;
+    background-color: var(--barnRed);
+    border-radius: 5px;
+    color: var(--sapphireBlue) !important;
+    padding: 0.1rem 0.5rem;
+    font-weight: 900;
 }

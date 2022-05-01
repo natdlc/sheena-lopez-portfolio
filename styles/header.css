@@ -95,6 +95,15 @@ header {
     border: 1px solid var(--barnRed);
     border-radius: 5px;
     text-align: center;
+    cursor: pointer;
+}
+
+.menu-item-container:hover {
+    background-color: var(--barnRed);
+}
+
+.menu-item-container:hover .menu-item {
+    color: var(--cambridgeBlue);
 }
 
 .menu-item {

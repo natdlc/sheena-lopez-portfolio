@@ -103,6 +103,14 @@ button {
     border-radius: 5px;
     font-family: 'Fira Sans Condensed',
     sans-serif;
+    cursor: pointer;
+    border: 1px solid var(--barnRed);
+}
+
+button:hover {
+    background-color: var(--cambridgeBlue);
+    border: 1px solid var(--barnRed);
+    color: var(--barnRed);
 }
 
 .boxed {

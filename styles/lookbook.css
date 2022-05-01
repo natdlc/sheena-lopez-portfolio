@@ -122,6 +122,10 @@
         padding-bottom: 3rem;
     }
 
+    .lookbook-services {
+        gap: 5rem;
+    }
+
     .lookbook-service-img-container img {
         width: 300px;
     }

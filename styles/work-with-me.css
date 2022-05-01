@@ -54,3 +54,110 @@
 .contact:last-child .contact-details p {
     font-size: 0.7rem;
 }
+
+.main-cta {
+    margin: 0 auto;
+    width: fit-content;
+    margin-bottom: -30px;
+}
+
+@media (min-width: 576px) {
+    #work-with-me {
+        margin-top: 3rem;
+    }
+    .work-with-me-header-title {
+        font-size: 3rem;
+    }
+
+    .work-with-me-header-description {
+        font-size: 0.9rem;
+        width: 40ch;
+    }
+
+    .contact {
+        width: 100%;
+        gap: 0;
+    }
+
+    .contact-icon {
+        width: 30%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .contact-icon img {
+        width: 35px;
+    }
+
+    .contact-texts {
+        width: 70%;
+    }
+
+    .contact-title p {
+        font-size: 1rem;
+        text-transform: capitalize;
+    }
+
+    .contact-details p {
+        font-size: 1rem;
+    }
+
+    .contact:last-child .contact-details p {
+        font-size: 1rem;
+    }
+}
+
+@media (min-width: 768px) {
+    #work-with-me {
+        padding-bottom: 6rem;
+    }
+
+    .work-with-me-header-description {
+        font-size: 1.1rem;
+    }
+
+    .contact {
+        width: 500px;
+    }
+
+    .contact-icon img {
+        width: 50px;
+    }
+
+    .contact-title p {
+        font-size: 1.2rem;
+    }
+
+    .main-cta a button {
+        font-size: 3rem;
+    }
+
+    .main-cta {
+        margin-bottom: -45px;
+    }
+}
+
+@media (min-width: 1200px) {
+    #work-with-me {
+        margin-top: 6rem;
+    }
+
+    .work-with-me-header-title {
+        font-size: 4rem;
+    }
+}
+
+@media (min-width: 1400px) {
+    .work-with-me-header-description {
+        font-size: 1.3rem;
+    }
+
+    .contacts {
+        gap: 2rem;
+    }
+
+    .contact-icon img {
+        width: 60px;
+    }
+}

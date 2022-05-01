@@ -97,6 +97,7 @@
 @media (min-width: 1400px) {
     #about {
         margin-top: 10rem;
+        gap: 8rem;
     }
     .about-header-title {
         font-size: 6rem !important;
